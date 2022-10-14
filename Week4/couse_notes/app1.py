@@ -31,3 +31,9 @@ for value in some_list:
 print(duplicates)
 duplicates1 = list(set(x for x in some_list if some_list.count(x) > 1))
 print(duplicates1)
+simple_dict = {
+    "a": 1,
+    "b": 2
+}
+my_dict = {key: value**2 for key, value in simple_dict}
+print(my_dict)
